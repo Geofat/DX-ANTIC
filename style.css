@@ -104,7 +104,6 @@ img {
 
 /* second section starts here */
 .second-section {
-    /* border: 3px solid tomato; */
     display: flex;
     background: #F3EEE8;
     padding-top: 30px;
@@ -136,6 +135,7 @@ img {
     display: flex;
     width: 50%;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .left-details {
@@ -182,7 +182,7 @@ img {
 }
 
 .right-details_bottom {
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
 /*second section ends here  */
