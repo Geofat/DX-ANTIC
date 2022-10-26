@@ -16,10 +16,131 @@ img {
 }
 
 /* first section starts here */
+/* mobile nav ends here */
+
+.nav-mobile {
+    display: none;
+
+}
+
+.mobilelink-holder h1 {
+    color: #ffff;
+    font-size: 34px;
+    font-family: 'Merriweather', serif;
+}
+
+.hamburger {
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menubar {
+    width: 100%;
+    height: 5px;
+    background: transparent;
+    position: relative;
+}
+
+.menubar::before {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: white;
+    position: absolute;
+    transform: translateY(10px);
+}
+
+.menubar::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: white;
+    position: absolute;
+    transform: translateY(-10px);
+}
+
+.showlink .menubar {
+    background: transparent;
+}
+
+.showlink .menubar::before {
+    transform: rotate(45deg);
+}
+
+.showlink .menubar::after {
+    transform: rotate(-45deg);
+}
+
+.mobilelink-holder {
+    /* height: 280px; */
+    width: 100%;
+
+
+}
+
+.mobilelink-holder ul {
+    width: 100%;
+    display: none;
+}
+
+.mobilelink-holder li {
+    width: 100%;
+    list-style: none;
+    padding: 20px 0;
+    height: 70px;
+    background: #d9d9d9;
+    display: block;
+    justify-content: space-evenly;
+    font-family: 'Varta', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #706458;
+
+}
+
+.showmobilelink {
+    display: block;
+    width: 397px;
+
+}
+
+.showmobilelink ul {
+    width: 100%;
+    display: block;
+
+}
+
+.showmobilelink li {
+    width: 100%;
+    list-style: none;
+    padding: 20px 0;
+    height: 70px;
+    background: #d9d9d9;
+    display: block;
+    justify-content: space-evenly;
+    font-family: 'Varta', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #706458;
+}
+
+.showmobilelink li:hover {
+    background: transparent;
+    color: #ffffff;
+}
+
+/* mobile nav ends here */
+
 .header-container {
     /* border: 3px solid tomato; */
     display: flex;
 }
+
 
 .left-div {
     /* border: 3px solid blue; */
@@ -233,7 +354,8 @@ input {
     height: 50px;
     padding-left: 30px;
 }
-input:hover{
+
+input:hover {
     width: 400px;
     padding-left: 50px;
 }
