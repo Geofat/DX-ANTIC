@@ -139,4 +139,14 @@
         width: 300px;
         margin-top: 10px;
     }
+    .design-container{
+        display: flex ;
+        flex-direction: column-reverse;
+    }
+    .sample-designs{
+        flex-direction: column;
+    }
+    .design-about{
+        flex-direction: column;
+    }
 }

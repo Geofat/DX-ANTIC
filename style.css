@@ -106,7 +106,7 @@ img {
 
 .showmobilelink {
     display: block;
-    width: 397px;
+    width: 100%;
 
 }
 
@@ -219,7 +219,7 @@ img {
 
 .right-div {
     width: 50%;
-    height: 620px;
+    height: 820px;
 }
 
 /* first section ends here */
@@ -371,3 +371,60 @@ input:hover {
 }
 
 /* third section ends here */
+.design-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sample-designs {
+    /* border: 3px solid tomato; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 15px;
+
+}
+
+.interior-images {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: 0 15px;
+    /* border: 2px solid blue; */
+    
+}
+
+.last_img{
+    width: 450px;
+    /* height: 600px; */
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+.design-about{
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.design-about h2{
+    color: #A06056;
+    margin: 30px 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+.design-about p{
+width: 400px;
+/* border:2px solid tomato ; */
+padding-top: 20px;
+/* font-size: 18px; */
+font-weight: 400;
+}
+.bottom-icon{
+    display: flex;
+}
+.bottom-icon span{
+    /* margin-left: 5px; */
+    padding: 0 20px;
+}
