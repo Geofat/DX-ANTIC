@@ -34,6 +34,7 @@ img {
     align-items: center;
     padding: 25px 0;
     margin-right: 20px;
+    transition: width 0.4s;
 }
 
 .menubar {
@@ -107,6 +108,7 @@ img {
 .showmobilelink {
     display: block;
     width: 100%;
+    
 
 }
 
@@ -114,12 +116,16 @@ img {
     width: 100%;
     display: block;
     padding: 0;
+    position: relative; 
+    transition:  0.5s ease;
 }
 
+
 .showmobilelink li {
+    
     width: 100%;
     list-style: none;
-    padding: 20px 20px;
+    padding: 20px;
     height: 70px;
     background: #d9d9d9;
     display: block;
@@ -129,6 +135,7 @@ img {
     font-size: 25px;
     color: #706458;
 }
+   
 
 .showmobilelink li:hover {
     background: transparent;
@@ -148,7 +155,7 @@ img {
     background: #F3EEE8;
     width: 50%;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 90px;
 
 }
 
@@ -230,7 +237,7 @@ img {
     background: #F3EEE8;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 30px;
+    padding-left: 90px;
     padding-right: 40px;
 }
 
@@ -313,6 +320,8 @@ img {
 /* third section starts here */
 .third-section {
     /* border: 3px solid tomato; */
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     padding: 30px 30px;
 }
@@ -403,6 +412,8 @@ input:hover {
 }
 .design-about{
     /* border: 2px solid tomato; */
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
@@ -415,10 +426,15 @@ input:hover {
     font-size: 50px;
 }
 .design-about p{
-width: 400px;
-/* border:2px solid tomato ; */
+width: 300px;
+font-family: Varta;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+
 padding-top: 20px;
-/* font-size: 18px; */
 font-weight: 400;
 }
 .bottom-icon{
