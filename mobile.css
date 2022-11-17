@@ -201,6 +201,10 @@
         margin: 0;
     }
 
+    footer {
+        margin-top: 40px;
+    }
+
     .shortcuts {
         flex-direction: column;
         padding: 0 20px;
