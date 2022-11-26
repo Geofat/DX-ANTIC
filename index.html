@@ -22,8 +22,10 @@
         href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Lato:ital,wght@1,300&family=Merriweather:ital,wght@0,300;1,300&family=Varta:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
+    <script src="scrollreveal.js"></script>
 </head>
 
 <body>
@@ -34,10 +36,6 @@
             <!-- mobile nav starts here -->
 
             <nav class="nav-mobile">
-                <div class="hamburger" onclick="addclass()">
-                    <div class="menubar"></div>
-
-                </div>
 
                 <div class="mobilelink-holder">
                     <h1>antic</h1>
@@ -48,6 +46,11 @@
                         <li>Inspirations</li>
                     </ul>
                 </div>
+                <div class="hamburger animate__animated animate__rubberBand" onclick="addclass()">
+                    <div class="menubar"></div>
+
+                </div>
+
             </nav>
             <!-- mobile nav ends here -->
 
@@ -98,7 +101,7 @@
                 </div>
                 <div class="right-details_bottom">
                     <h4>Installation Service</h4>
-                    <p>Our furniture packaged in flat packs<br> are designed for easy assembly. But<br> you can call on
+                    <p>Our furniture packaged in flat packs<br> are designed for easy assembly. <br>But you can call on
                         our partner.</p>
                 </div>
             </div>
@@ -158,45 +161,46 @@
             <div>
                 <h3>antic</h3>
             </div>
-<div class="shortcut-links_holder">
-            <div class="short-links">
-                <h4>Products</h4>
-                <p>Furniture</p>
-                <p>Decoration</p>
-                <p>Storage</p>
-                <p>Baby and child</p>
-                <p>Connected home</p>
-            </div>
+            <div class="shortcut-links_holder">
+                <div class="short-links">
+                    <h4>Products</h4>
+                    <p>Furniture</p>
+                    <p>Decoration</p>
+                    <p>Storage</p>
+                    <p>Baby and child</p>
+                    <p>Connected home</p>
+                </div>
 
-            <div class="short-links">
-                <h4>Rooms</h4>
-                <p>Living room</p>
-                <p>Decoration</p>
-                <p>Dinning room</p>
-                <p>Cooked</p>
-                <p>Bedroom</p>
-                <p>Bathroom</p>
-                <p>office</p>
-                <p>Laundry</p>
-                <p>Garage</p>
-            </div>
+                <div class="short-links">
+                    <h4>Rooms</h4>
+                    <p>Living room</p>
+                    <p>Decoration</p>
+                    <p>Dinning room</p>
+                    <p>Cooked</p>
+                    <p>Bedroom</p>
+                    <p>Bathroom</p>
+                    <p>office</p>
+                    <p>Laundry</p>
+                    <p>Garage</p>
+                </div>
 
-            <div class="short-links">
-                <h4>Services</h4>
-                <p>Click and Connect</p>
-                <p>Conception</p>
-                <p>Installation</p>
-                <p>Advices</p>
-                <p>Gift card</p>
-            </div>
+                <div class="short-links">
+                    <h4>Services</h4>
+                    <p>Click and Connect</p>
+                    <p>Conception</p>
+                    <p>Installation</p>
+                    <p>Advices</p>
+                    <p>Gift card</p>
+                </div>
 
-            <div class="short-links">
-                <h4>About</h4>
-                <p>Our Story</p>
-                <p>Our stores</p>
-                <p>Our Partners</p>
+                <div class="short-links">
+                    <h4>About</h4>
+                    <p>Our Story</p>
+                    <p>Our stores</p>
+                    <p>Our Partners</p>
+                </div>
+
             </div>
-</div>
             <div>
                 <h4>We respect our planet</h4>
                 <div class="footer_img">
@@ -231,6 +235,51 @@
 
 
     </footer>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            duration: 2000,
+            distance: '200px'
+        });
+        ScrollReveal().reveal('.header-content h2',
+            {
+                // delay: 500,
+                origin: 'right'
+            });
+        ScrollReveal().reveal('.header-content p',
+            {
+                // delay: 500,
+                origin: 'left'
+            });
+        ScrollReveal().reveal('.second-section_content ',
+            {
+                // delay: 500,
+                origin: 'left'
+            });
+        ScrollReveal().reveal('.left-details_top ',
+            {
+                // delay: 500,
+                origin: 'top'
+            });
+        ScrollReveal().reveal('.left-details_bottom ',
+            {
+                // delay: 500,
+                origin: 'bottom'
+            });
+        ScrollReveal().reveal('.right-details_top ',
+            {
+                // delay: 500,
+                origin: 'top'
+            });
+        ScrollReveal().reveal('.right-details_bottom ',
+            {
+                // delay: 500,
+                origin: 'bottom'
+            });
+
+    </script>
+
     <script src="main.js"></script>
 </body>
 
